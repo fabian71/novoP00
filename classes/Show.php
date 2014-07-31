@@ -92,7 +92,7 @@ class Show
 
 		$stars = '';
 
-		echo '';
+		//echo '';
 
 		$valorStars = $cliente->getStars();
 
