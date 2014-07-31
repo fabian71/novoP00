@@ -1,10 +1,10 @@
 <?php
   
-  require_once 'Classes/ClienteInterface.php';
-  require_once 'Classes/Cliente.php';
-  require_once 'Classes/Endereco.php';
-  require_once 'Classes/PessoaJuridica.php';
-  require_once 'Classes/Show.php';
+  require_once 'classes/ClienteInterface.php';
+  require_once 'classes/Cliente.php';
+  require_once 'classes/Endereco.php';
+  require_once 'classes/PessoaJuridica.php';
+  require_once 'classes/Show.php';
 
   $cliente = new Cliente(1, "Paulo", "paulo@email.com", "000.000.000-00", "(00) 0000-0000");
   $cliente->setStars(3);

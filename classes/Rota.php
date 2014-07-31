@@ -1,5 +1,4 @@
 <?php
-
 /* Define as rotas */
 class Rota
 {
